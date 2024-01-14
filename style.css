@@ -1,0 +1,23 @@
+head, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    display: block;
+}
+
+.button-container {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px); /* Prend en compte la marge de 10px de chaque côté */
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: not-allowed;
+    pointer-events: none;
+}
